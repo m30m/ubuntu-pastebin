@@ -25,8 +25,6 @@ $(document).ready(function() {
 					e.preventDefault();
 				}
 			}
-            //s+= "Key : " + e.which;
-            //$("#test").html(s);         
-            
         });
+		chrome.runtime.sendMessage({injected: "true"});
 });
