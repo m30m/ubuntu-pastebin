@@ -5,6 +5,10 @@
   "description": "Press ctrl+A to just select the code!!!",
   "version": "1.0",
   "background": { "scripts": ["background.js"] },
+  "icons": {
+	"48": "icon48.png",
+    "128": "icon128.png"
+  },
   "author": "Mohammad Amin Khashkhashi Moghaddam (amin.moghaddamV@gmail.com)",
   
   "content_scripts": [
