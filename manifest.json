@@ -10,15 +10,15 @@
     "128": "icon128.png"
   },
   "author": "Mohammad Amin Khashkhashi Moghaddam (amin.moghaddamV@gmail.com)",
-  
+
   "content_scripts": [
     {
-      "matches": ["*://paste.ubuntu.com/*"],
-	  "exclude_matches": ["*://paste.ubuntu.com/"],
+      "matches": ["*://paste.ubuntu.com/*", "*://pastebin.ubuntu.com/*"],
+	  "exclude_matches": ["*://paste.ubuntu.com/", "*://pastebin.ubuntu.com/"],
       "js": ["jquery.js", "scr.js"]
     }
   ],
-  
+
   "page_action": {
     "default_name": "Display Map",
     "default_icon": "icon.png",
